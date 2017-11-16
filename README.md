@@ -1,4 +1,4 @@
-# WebDeveloperCourse
+# Git Command Line Commands
 
 git +
 	add -A -> Add all the files in your git directory
@@ -11,5 +11,3 @@ Git status -> Check what has been changed
 Git add -A -> Add all
 Git commit -m "MESSAGE" -> get files ready to push
 Git push -> push files to git
-
-So thats that easy.
