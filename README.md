@@ -11,3 +11,6 @@ Git status -> Check what has been changed
 Git add -A -> Add all
 Git commit -m "MESSAGE" -> get files ready to push
 Git push -> push files to git
+
+
+Test from VSC
