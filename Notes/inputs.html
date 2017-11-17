@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inputs Demo</title>
+</head>
+<body>
+    
+<p>Do you prefer cats or dogs?</p>
+
+
+<form>
+
+   <label for="dogs">Dogs</label>
+    <!-- Radio buttons cannot be unchecked -->
+    <!-- Name is the way the info is stored in the HTTP request 
+    By giving the inputs the same name they are connected and both cannot be checked. 
+    -->
+    <input type="radio" name="petChoice" id="Dogs" value="DOGS">
+
+    <label for="cats">Cats</label>
+    <input type="radio" name="petChoice" id="Cats" value="CATS">
+
+    <p>Whats your mood?</p>
+    <!-- Dropdown menu -->
+    <section name="mood">
+        <option value="happy">:)</option>
+        <option value="neutral">:|</option>
+        <option value="sad">:(</option>
+    </section>
+
+    <textarea name="paragraph" id="" cols="30" rows="10"></textarea>
+
+    <!-- If the button is at the end it will automatically submit the form
+    alternative use a input type=submit -->
+    <button>Go!</button>
+</form>
+
+</body>
+</html>
