@@ -1,11 +1,23 @@
 h1 {
     color: red;
+    /* border-color: purple;
+    border-width: 5px;
+    border-style: solid; */
+
+    border: 5px solid purple;
 }
 
-li {
-    color: green;
-}
+/* border:
+color
+width
+style  */
 
 h4 {
-    color: purple;
+    background: rgb(255, 100, 80);
+}
+
+body {
+    /* background: url(https://cdn.pixabay.com/photo/2016/07/14/09/04/texture-1516370_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
 }
