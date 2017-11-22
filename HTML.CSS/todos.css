@@ -1,0 +1,15 @@
+
+
+li {
+    border: 2px solid red;
+}
+
+/* ID Selector = #Can only appear oe time o a page - used to siggle out a single */
+#special {
+    background: yellow;
+}
+
+/* Class = .  Class works just like an ID, but can be used on multiple elements */
+.completed {
+    text-decoration: line-through;
+}
