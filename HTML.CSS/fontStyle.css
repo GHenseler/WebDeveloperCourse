@@ -1,11 +1,11 @@
 /* Font Family */
 
 p {
-    font-family: Arial;
+    font-family: Raleway;
 }
 
 h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Indie Flower;
 }
 
 /* Font Size */
@@ -29,7 +29,7 @@ span {
 /* Font Weight */
 
 p {
-    font-weight: bold;
+    font-weight: normal;
 }
 
 /* Line Height */
