@@ -1,0 +1,36 @@
+/* Elements */
+li {
+
+}
+/* Class */
+.class {
+
+}
+/* id  */
+#id {
+
+}
+/* Star  */
+* {
+    /* Applies to all elements on the page */
+}
+/* Descendant Selectors */
+li a {
+    /* Select all a tags that are inside an li  */
+}
+/* Adjacent Selectors */
+h4 + ul {
+    /* With the plus, selects all ul that are adjacent (come after) the h4 */
+}
+/* Attribute Selectors */
+a[href="http://www.google.com"] {
+    /* all hrefs that link to a specific site */
+}
+/* or */
+input[type="checkbox"] {
+
+}
+/* nth of type */
+ul:nth-of-type(3) {
+    /* Select the nth number */
+}
